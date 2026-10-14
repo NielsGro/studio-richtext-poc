@@ -1,0 +1,6 @@
+{
+    "environment": "<your-environment-name>",
+    "templateId": "<template-id>",
+    "clientId": "<integration-client-id>",
+    "clientSecret": "<integration-client-secret>"
+}

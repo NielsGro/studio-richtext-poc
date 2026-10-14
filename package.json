@@ -1,0 +1,14 @@
+{
+    "name": "studio-richtext-poc",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Proof of concept: CHILI GraFx Studio UI embedded in a page, with a custom editor for Rich Text variables.",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "license": "UNLICENSED"
+}

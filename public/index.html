@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Studio Rich Text POC</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <!-- Studio UI is constructed inside this div -->
+        <div id="studio-ui-container"></div>
+
+        <!-- Shown while the project is being created -->
+        <div id="poc-loading" class="poc-loading">Creating a new project from the template…</div>
+
+        <!-- Shown instead of Studio when the config is missing or the bundle fails to load -->
+        <div id="poc-error" class="poc-error" hidden>
+            <h1>Studio could not be started</h1>
+            <p id="poc-error-message"></p>
+        </div>
+
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>

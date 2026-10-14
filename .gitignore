@@ -1,0 +1,5 @@
+# Local configuration holds the client secret: never commit it.
+config.json
+
+node_modules/
+.DS_Store
